@@ -1,0 +1,9 @@
+body {
+  background-color: green;
+}
+
+#social_media img {
+  /*PLACHOLDER SIZING*/
+  height: 25px; 
+  width: 25px;
+}
