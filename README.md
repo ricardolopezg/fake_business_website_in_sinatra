@@ -8,10 +8,11 @@ main css
 
 
 SAM
-code wireframe home page
+home page
+about page
 
 
 
 RICKY
-code wireframe services page
+services page
 
