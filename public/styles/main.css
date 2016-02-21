@@ -15,6 +15,23 @@ html {
 header {
   width: 100%;
   background-color: #6292A8;
+  height: 8em;
+}
+
+#logo1 {
+  position: absolute;
+  left: 30px;
+  top: 10px;
+  height: 90px;
+  width: 90px;
+}
+
+#logo2 {
+  position: absolute;
+  left: 130px;
+  top: 10px;
+  height: 90px;
+  width: 90px;  
 }
 
 /* NAVBAR */
@@ -22,6 +39,8 @@ header {
 nav {
   margin: 0 auto;
   width: 100%;
+  position: absolute;
+  top: 60px;
   padding: 10px 0;
 }
 
@@ -65,17 +84,22 @@ nav a:hover {
   margin: 0;
   padding: 0;
   width: 100%;
+  height: 850px;
   text-align: center;
   background-color: #E8B377;
-}
+s}
 
+h1 {
+  margin: 0;
+  padding: 40px 0 0 0;
+}
 
 
 /* FOOTER */
 
 footer {
   width: 100%;
-  height: 14em;
+  height: 10em;
   padding: 0;
   background-color: #6292A8;
   text-align: center;
@@ -91,18 +115,18 @@ footer p {
     /*text-align: center;*/
   }
 
-  footer a {
-    text-decoration: none;
-    color: #f6f6f6;
-    -webkit-transition: 1s;
+footer a {
+  text-decoration: none;
+  color: #000;
+  -webkit-transition: 1s;
   transition: 1s;
-  }
+}
 
-  footer a:hover {
-    opacity: .8;
-  }
+footer a:hover {
+  opacity: .8;
+}
 
-#social_media {
+footer #social_media {
   width: 68%;
   float: left;
   display: inline-block;
@@ -110,17 +134,33 @@ footer p {
   text-align: left;
 }  
 
-#icon {
-  padding: 5px;
+footer #icon {
+  padding: 0 8px;
   margin-top: 10px;
 }
 
-#contact {
+footer #copyright {
+  position: absolute;
+  margin: 0 auto;
+  width: 100%;
+  margin: 4em 0;
+}
+
+footer #copyright span {
+  color: darkred;
+}
+
+footer #contact {
+  position: absolute;
+  right: 0;
+  margin: 2.5em 0;
   width: 28%;
-  float: right;
   display: inline-block;
-  padding: 10px;
-  /*background-color: #f6f6f6;*/
+  /*padding: 10px;*/
+}
+
+footer #contact a {
+  color: #fff;
 }
 
 #main_img_div img{
@@ -228,6 +268,8 @@ footer p {
 }
 */
 
+/* SERVICES - PRODUCT SECTION */
+
 #product_section {
   margin: auto;
   width: 90%;
@@ -240,14 +282,12 @@ footer p {
   margin: 30px 50px;
 }
 
-#product_section .product h2 {
-  text-align: center;
-}
-
 #product_section .product p {
   height: 200px;
-  width: 200px;
+  width: 250px;
   float: right;
+  text-align: left;
+  margin-top: 30px;
 }
 
 #product_section .product img {
@@ -256,18 +296,28 @@ footer p {
   margin: 20px;
 }
 
-#horizontal_line_services {
+#product_section .product_discover_more_link {
+  position: relative;
+  color: #6292A8;
+  bottom: 10px;
+  left: 330px;
+  width: 200px;
+  text-decoration: none;
+  font-weight: 900;
+}
+
+#product_section #horizontal_line_services {
   width: 65%;
   position: absolute;
-  top: 560px;
+  top: 563px;
   left: 220px;
 }
 
-#vertical_line_services {
+#product_section #vertical_line_services {
   width: 35%;
   position: absolute;
   top: 570px;
-  left: 440px;
+  left: 450px;
   transform: rotate(90deg);
 }
 
@@ -287,69 +337,107 @@ footer p {
   float: left;
 }
 
+
+/* SERVICES - MODAL */
+
 .modal_background {
-  display: none;
-  position: absolute;
+  position: fixed;
+  z-index: 1;
   height: 100%;
   width: 100%;
   top: 0;
   left: 0;
-  text-align:center;
+  /*text-align:center;*/
   background-color: rgba(0,0,0,.85);
+}
+
+#modal_product1 {
+  display: none;
+}
+
+#modal_product2 {
+  display: none;
+}
+
+#modal_product3 {
+  display: none;
+}
+
+#modal_product4 {
+  display: none;
 }
 
 .modal_product_container {
   position: absolute;
-  height: 50%;
-  width: 50%;
-  margin: 350px;
-  top: 0;
-  left: 0;
-  border: 2px solid red;
-  text-align:center;
-}
-
-.modal_images img {
-  height: 350px;
-  width: 700px;
-  position: relative;
-  top: 25%;
-  left: -300px;
-  padding:12px;
-}
-
-.modal_text {
+  height: 90%;
+  width: 90%;
+  margin: 40px 70px;
+  border: 3px solid #E8B377;
+  border-radius: 10px;
   background-color: rgba(255,255,255,0.9);
+}
+
+.modal_product_container img {
+  height: 300px;
+  width: 550px;
+  border-radius: 10px;
+  margin: 40px 50px 0;
+  float: left;
+  clear: left;
+}
+
+.modal_text_container {
   border-radius: 5px;
-  border:1px solid red;
   margin: auto;
-  height: 500px;
-  width: 700px;
+  height: 700px;
+  width: 500px;
   position: absolute;
   top: 50%;
   left: 50%;
-  margin-top: -250px;
-  margin-left: -350px;
-  text-align: center;
+  margin-top: -340px;
+  text-align: left;
   padding:12px;
+}
+
+.modal_contact_link {
+  position: absolute;
+  bottom: 35px;
+  left: 350px;
+  text-transform: uppercase;
+  text-decoration: none;
+  color: #6292A8;
+  font-weight: 900;
+  margin-right: -100px;
+  line-height: 1.3em;
+}
+
+.modal_article1 {
+  position: absolute;
+  width: 550px;
+}
+
+.modal_article2 {
+  position: absolute;
+  width: 550px;
+  top: 49%;
 }
 
 .modal_close {
   position: absolute;
   width: 25px;
   height: 30px;
-  top: 5px;
-  right: 15px;
+  top: 10px;
+  right: 10px;
   text-align: center;
-  font-size: 23px;
+  font-size: 25px;
   color: #fff;
-  background-color: red;
+  background-color: #E8B377;
   border-radius: 5px;
 
 }
 
-
-
+.modal_no_scroll {
+  overflow: hidden;
 
 
 #find_us {
