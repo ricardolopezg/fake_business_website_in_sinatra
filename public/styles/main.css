@@ -325,3 +325,103 @@ footer p {
   border-radius: 5px;
 
 }
+
+
+
+
+
+#find_us {
+  width: 38%;
+  float: left;
+  display: inline-block;
+  padding: 10px;
+  background-color: transparent;
+  text-align: justify;
+}
+
+
+#contact_form {
+  width: 58%;
+  float: right;
+  display: inline-block;
+  padding: 10px;
+}
+
+form {
+  margin: auto;
+  position: relative;
+  width: 500px;
+  padding: 10px;
+  /*border-radius: 10px;*/
+  /*border: 2px solid #000;*/
+  color: #000;
+}
+
+input {
+  position: relative;
+  display: inline-block;
+  margin: 1em;
+  width: 300px;
+  padding: 10px;
+  line-height: 2;
+  border: 2px solid #000;
+  outline: none;
+  border-radius: 0;
+  box-shadow: none;
+  background-color: #fff;
+  color: #000;
+  font-weight: bold;
+  transition: border 0.3s;
+}
+
+input:focus {
+  border: 2px solid #e8b377;
+}
+
+
+textarea {
+  position: relative;
+  display: inline-block;
+  margin: 1em;
+  width: 300px;
+  padding: 10px;
+  line-height: 2;
+  border: 2px solid #000;
+  outline: none;
+  border-radius: 0;
+  background-color: #fff;
+  color: #000;
+  font-weight: bold;
+}
+
+textarea:focus {
+  border: 2px solid #e8b377;
+}
+
+button {
+  position: relative;
+  display: inline-block;
+  margin: 1em;
+  max-width: 400px;
+  width: 300px;
+
+}
+
+.btn {
+  line-height: 2;
+  border: 3px solid #000;
+  border-radius: 5px;
+  background: #fff;
+  color: #e8b377;
+  font-weight: bold;
+  letter-spacing: 1px;
+  -webkit-transition: 0.3s;
+  -moz-transition: 0.3s;
+  transition: 0.3s;
+}
+
+.btn:hover,
+.btn:active {
+  color: #fff;
+  background: #e8b377;
+}
