@@ -4,7 +4,7 @@
 @import url('http://fonts.googleapis.com/css?family=Roboto');
 
 html {
-  	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
     color: #000;
     font-size: .9em;
     line-height: 1.2;
@@ -13,60 +13,60 @@ html {
 /* HEADER */
 
 header {
-	width: 100%;
-	background-color: #6292A8;
+  width: 100%;
+  background-color: #6292A8;
 }
 
 /* NAVBAR */
 
 nav {
-	margin: 0 auto;
-	width: 100%;
-	padding: 10px 0;
+  margin: 0 auto;
+  width: 100%;
+  padding: 10px 0;
 }
 
 nav ul {
-	list-style: none;
-	text-align: center;
-	width: 100%;
-	margin: 0;
-	padding: 0;
+  list-style: none;
+  text-align: center;
+  width: 100%;
+  margin: 0;
+  padding: 0;
 }
 
 nav li {
-	display: inline;
-	padding: 10px 0;
-	margin-right: -4px;
-	width: 120px;
-	text-align: center;
-	font-family: "Roboto";
-	font-size: 22px;
+  display: inline;
+  padding: 10px 0;
+  margin-right: -4px;
+  width: 120px;
+  text-align: center;
+  font-family: "Roboto";
+  font-size: 22px;
 }
 
 nav a {
-	padding: 10px 20px;
-	margin: 0;
-	width: 120px;
-	text-decoration: none;
-	color: #000;
-	-webkit-transition: 1s;
-	transition: 1s;
+  padding: 10px 20px;
+  margin: 0;
+  width: 120px;
+  text-decoration: none;
+  color: #000;
+  -webkit-transition: 1s;
+  transition: 1s;
 }
 
 nav a:hover {
-	background-color: #306692;
-	opacity: .8;
-	color: #fff;
+  background-color: #306692;
+  opacity: .8;
+  color: #fff;
 }
 
 /* CONTAINER */
 
 #container {
-	margin: 0;
-	padding: 0;
-	width: 100%;
-	text-align: center;
-	background-color: #E8B377;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  text-align: center;
+  background-color: #E8B377;
 }
 
 
@@ -74,53 +74,53 @@ nav a:hover {
 /* FOOTER */
 
 footer {
-	width: 100%;
-	height: 14em;
-	padding: 0;
-	background-color: #6292A8;
-	text-align: center;
+  width: 100%;
+  height: 14em;
+  padding: 0;
+  background-color: #6292A8;
+  text-align: center;
   clear: both;
 }
 
 footer p {
-  	margin:0 auto;
-  	padding: 1px;
-  	color: #000;
-  	line-height: 2;
-  	font-family: "Droid Sans";
-  	/*text-align: center;*/
+    margin:0 auto;
+    padding: 1px;
+    color: #000;
+    line-height: 2;
+    font-family: "Droid Sans";
+    /*text-align: center;*/
   }
 
   footer a {
-  	text-decoration: none;
-  	color: #f6f6f6;
-  	-webkit-transition: 1s;
-	transition: 1s;
+    text-decoration: none;
+    color: #f6f6f6;
+    -webkit-transition: 1s;
+  transition: 1s;
   }
 
   footer a:hover {
-  	opacity: .8;
+    opacity: .8;
   }
 
 #social_media {
-	width: 68%;
-	float: left;
-	display: inline-block;
-	padding: 10px;
-	text-align: left;
+  width: 68%;
+  float: left;
+  display: inline-block;
+  padding: 10px;
+  text-align: left;
 }  
 
 #icon {
-	padding: 5px;
-	margin-top: 10px;
+  padding: 5px;
+  margin-top: 10px;
 }
 
 #contact {
-	width: 28%;
-	float: right;
-	display: inline-block;
-	padding: 10px;
-	/*background-color: #f6f6f6;*/
+  width: 28%;
+  float: right;
+  display: inline-block;
+  padding: 10px;
+  /*background-color: #f6f6f6;*/
 }
 
 #main_img_div img{
@@ -224,22 +224,222 @@ footer p {
 }
 
 
+#product_section {
+  margin: auto;
+  width: 90%;
+}
+
+
+#product_section .product {
+  height: 40%;
+  width: 40%;
+  margin: 30px 50px;
+}
+
+#product_section .product h2 {
+  text-align: center;
+}
+
+#product_section .product p {
+  height: 200px;
+  width: 200px;
+  float: right;
+}
+
+#product_section .product img {
+  height: 200px;
+  width: 200px;
+  margin: 20px;
+}
+
+#horizontal_line_services {
+  width: 65%;
+  position: absolute;
+  top: 560px;
+  left: 220px;
+}
+
+#vertical_line_services {
+  width: 35%;
+  position: absolute;
+  top: 570px;
+  left: 440px;
+  transform: rotate(90deg);
+}
+
+#product_section #product1 {
+  float: left;
+}
+
+#product_section #product2 {
+  float: left;
+}
+
+#product_section #product3 {
+  float: left;
+}
+
+#product_section #product4 {
+  float: left;
+}
+
+.modal_background {
+  display: none;
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  left: 0;
+  text-align:center;
+  background-color: rgba(0,0,0,.85);
+}
+
+.modal_product_container {
+  position: absolute;
+  height: 50%;
+  width: 50%;
+  margin: 350px;
+  top: 0;
+  left: 0;
+  border: 2px solid red;
+  text-align:center;
+}
+
+.modal_images img {
+  height: 350px;
+  width: 700px;
+  position: relative;
+  top: 25%;
+  left: -300px;
+  padding:12px;
+}
+
+.modal_text {
+  background-color: rgba(255,255,255,0.9);
+  border-radius: 5px;
+  border:1px solid red;
+  margin: auto;
+  height: 500px;
+  width: 700px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-top: -250px;
+  margin-left: -350px;
+  text-align: center;
+  padding:12px;
+}
+
+.modal_close {
+  position: absolute;
+  width: 25px;
+  height: 30px;
+  top: 5px;
+  right: 15px;
+  text-align: center;
+  font-size: 23px;
+  color: #fff;
+  background-color: red;
+  border-radius: 5px;
+
+}
 
 
 
 
 
+#find_us {
+  width: 38%;
+  float: left;
+  display: inline-block;
+  padding: 10px;
+  background-color: transparent;
+  text-align: justify;
+}
 
 
+#contact_form {
+  width: 58%;
+  float: right;
+  display: inline-block;
+  padding: 10px;
+}
+
+form {
+  margin: auto;
+  position: relative;
+  width: 500px;
+  padding: 10px;
+  /*border-radius: 10px;*/
+  /*border: 2px solid #000;*/
+  color: #000;
+}
+
+input {
+  position: relative;
+  display: inline-block;
+  margin: 1em;
+  width: 300px;
+  padding: 10px;
+  line-height: 2;
+  border: 2px solid #000;
+  outline: none;
+  border-radius: 0;
+  box-shadow: none;
+  background-color: #fff;
+  color: #000;
+  font-weight: bold;
+  transition: border 0.3s;
+}
+
+input:focus {
+  border: 2px solid #e8b377;
+}
 
 
+textarea {
+  position: relative;
+  display: inline-block;
+  margin: 1em;
+  width: 300px;
+  padding: 10px;
+  line-height: 2;
+  border: 2px solid #000;
+  outline: none;
+  border-radius: 0;
+  background-color: #fff;
+  color: #000;
+  font-weight: bold;
+}
 
+textarea:focus {
+  border: 2px solid #e8b377;
+}
 
+button {
+  position: relative;
+  display: inline-block;
+  margin: 1em;
+  max-width: 400px;
+  width: 300px;
 
+}
 
+.btn {
+  line-height: 2;
+  border: 3px solid #000;
+  border-radius: 5px;
+  background: #fff;
+  color: #e8b377;
+  font-weight: bold;
+  letter-spacing: 1px;
+  -webkit-transition: 0.3s;
+  -moz-transition: 0.3s;
+  transition: 0.3s;
+}
 
-
-
-
-
-
+.btn:hover,
+.btn:active {
+  color: #fff;
+  background: #e8b377;
+}
