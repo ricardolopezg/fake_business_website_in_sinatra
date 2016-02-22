@@ -5,6 +5,7 @@ Roles for project
 DESI
 header and footer 
 main css
+contact us
 
 
 SAM
@@ -15,4 +16,7 @@ about page
 
 RICKY
 services page
+
+
+We all worked on the SendGrid gem
 
