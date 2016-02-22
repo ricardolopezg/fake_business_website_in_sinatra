@@ -1,28 +1,28 @@
-// $(document).ready(function() {
+$(document).ready(function() {
 
-//   $("#about_text h2").html("About"); 
-//   $("#about_text p").html("Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deserunt corporis molestiae dolore nisi expedita, magnam dolorum, animi, tenetur cupiditate vel exercitationem. Fugit dignissimos unde, rem optio ab, eius sint odit.");
+  $("#about_text h2").html("About"); 
+  $("#about_text p").html("Mars and new ones appear frequently on steep slopes of craters, troughs, and valleys. The streaks are dark at first and get lighter with age. Sometimes, the streaks start in a tiny area which then spread out for hundreds of metres. They have also been seen to follow the edges of boulders and other obstacles in their path. The commonly accepted theories include that they are dark underlying layers of soil revealed after avalanches of bright dust Mars and new ones appear frequently on steep slopes of craters, troughs, and valleys. The streaks are dark at first and get lighter with age. Sometimes, the streaks start in a tiny area which then spread out for hundreds of metres. They have also been seen to follow the edges of boulders and other obstacles in their path. The commonly accepted theories include that they are dark underlying layers of soil revealed after avalanches of bright dust.");
 
-//   $("#history_button").click(function(){
-//     $("#about_text h2").html("");
-//     $("#about_text p").html("");
-//     $("#history_text h2").html("History")
-//     $("#history_text p").html("Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nulla fugit quis sint ullam quos quia molestiae iste, animi itaque fuga, placeat nostrum temporibus laborum rem iure voluptatem ex ad dolore!");
-//     return false;
-//   });
+  $("#history_button").click(function(){
+    $("#about_text h2").html("");
+    $("#about_text p").html("");
+    $("#history_text h2").html("History")
+    $("#history_text p").html("Mars and new ones appear frequently on steep slopes of craters, troughs, and valleys. The streaks are dark at first and get lighter with age. Sometimes, the streaks start in a tiny area which then spread out for hundreds of metres. They have also been seen to follow the edges of boulders and other obstacles in their path. The commonly accepted theories include that they are dark underlying layers of soil revealed after avalanches of bright dust Mars and new ones appear frequently on steep slopes of craters, troughs, and valleys. The streaks are dark at first and get lighter with age. Sometimes, the streaks start in a tiny area which then spread out for hundreds of metres. They have also been seen to follow the edges of boulders and other obstacles in their path. The commonly accepted theories include that they are dark underlying layers of soil revealed after avalanches of bright dust.");
+    return false;
+  });
 
-//   $("#about_button").click(function(){
-//     $("#about_text h2").html("About"); 
-//     $("#about_text p").html("Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deserunt corporis molestiae dolore nisi expedita, magnam dolorum, animi, tenetur cupiditate vel exercitationem. Fugit dignissimos unde, rem optio ab, eius sint odit.");
-//     $("#history_text h2").html("")
-//     $("#history_text p").html("")
-//     return false;
-//   });
-
-
+  $("#about_button").click(function(){
+    $("#about_text h2").html("About"); 
+    $("#about_text p").html("Mars and new ones appear frequently on steep slopes of craters, troughs, and valleys. The streaks are dark at first and get lighter with age. Sometimes, the streaks start in a tiny area which then spread out for hundreds of metres. They have also been seen to follow the edges of boulders and other obstacles in their path. The commonly accepted theories include that they are dark underlying layers of soil revealed after avalanches of bright dust Mars and new ones appear frequently on steep slopes of craters, troughs, and valleys. The streaks are dark at first and get lighter with age. Sometimes, the streaks start in a tiny area which then spread out for hundreds of metres. They have also been seen to follow the edges of boulders and other obstacles in their path. The commonly accepted theories include that they are dark underlying layers of soil revealed after avalanches of bright dust.");
+    $("#history_text h2").html("")
+    $("#history_text p").html("")
+    return false;
+  });
 
 
-// });
+
+
+});
   
 
 
