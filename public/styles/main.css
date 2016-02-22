@@ -276,6 +276,10 @@ footer #contact a {
   width: 10%;
 }
 
+#abs_nav h2 {
+  padding: 0.5em;
+}
+
 #about_history {
   width: 60%;
   height: 36em;
