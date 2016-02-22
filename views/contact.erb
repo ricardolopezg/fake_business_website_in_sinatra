@@ -11,10 +11,11 @@
 </div>
 
 <div id="contact_form">
-	<form>
+	<form action="/contact" method="post">
         <input type="text" placeholder="YOUR NAME">
-        <input type="email" placeholder="YOUR EMAIL">
-        <textarea class="" placeholder="TALK TO US"></textarea>
+        <input type="email" name="email" placeholder="YOUR EMAIL ADDRESS">
+        <input type="text" name="subject" placeholder="SUBJECT">
+        <textarea name="body" placeholder="TALK TO US"></textarea>
 
         <button type="submit" class="btn">SUBMIT</button>
 </form>
