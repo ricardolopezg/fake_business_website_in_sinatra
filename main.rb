@@ -15,3 +15,7 @@ end
 get "/contact" do
   erb :contact 
 end
+
+get "/history" do
+  erb :history
+end

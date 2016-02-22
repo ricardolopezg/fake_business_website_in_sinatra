@@ -176,7 +176,7 @@ footer p {
 #articles_div article {
   width: 30%;
   float: left;
-  padding: 3em 1em 4em 1.92em;
+  padding: 3em 1em 4em 1.95em;
   background-color: #E8B377
 }
 
@@ -208,25 +208,21 @@ footer p {
 #abs_nav {
   text-align: center;
   position: absolute;
-
   width: 10%;
-  border: 2px solid black;
-  border-radius: 1em;
 }
 
 #about_history {
-  width: 50%;
+  width: 60%;
   text-align: center;
-  padding: 2em;
+  padding: 0.5em;
   margin: 0 auto;
-  border: 2px solid black;
-  border-radius: 1em;
+  
 }
 
-/*#history_text {
-  display: none;
+#about_history p {
+  padding-bottom: 2em;
 }
-*/
+
 
 
 
