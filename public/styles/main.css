@@ -403,7 +403,7 @@ footer #contact a {
   height: 700px;
   width: 500px;
   position: absolute;
-  top: 50%;
+  top: 51%;
   left: 50%;
   margin-top: -340px;
   text-align: left;
@@ -413,7 +413,7 @@ footer #contact a {
 .modal_contact_link {
   position: absolute;
   bottom: 35px;
-  left: 350px;
+  left: 330px;
   text-transform: uppercase;
   text-decoration: none;
   color: #6292A8;
@@ -452,29 +452,42 @@ footer #contact a {
 }
 
 #find_us {
-  width: 38%;
+  margin: 70px;
+}
+
+#address {
+  width: 28%;
   float: left;
-  display: inline-block;
-  padding: 10px;
+  padding: 50px;
   background-color: transparent;
   text-align: justify;
+
+}
+
+#address h3 {
+  font-size: 1.5em;
+}
+
+#address p {
+  font-size: 1.25em;
+}
+
+#map {
+  float: left;
+  width: 28%;
 }
 
 
 #contact_form {
-  width: 58%;
-  float: right;
-  display: inline-block;
-  padding: 10px;
+  width: 28%;
+  float: left;
+  padding-left: 90px;
+  margin-bottom: 60px;
+  margin-top: -15px;
 }
 
 form {
-  margin: auto;
-  position: relative;
   width: 500px;
-  padding: 10px;
-  /*border-radius: 10px;*/
-  /*border: 2px solid #000;*/
   color: #000;
 }
 

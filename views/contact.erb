@@ -1,23 +1,28 @@
 <h1>LET'S GET TOGETHER</h1>
 
 <div id="find_us">
+	<div id = "address">
+    <h3>Our Home:</h3>
+  	<p>Lunar Landing</p>
+    <p>Spaceship 2</p>
+    <p>(NYCDA's HQ)</p>
+  </div>
 
-	<p>some text here</p>
+	<div id = "map">
+    <iframe width="400" height="400" src="http://maps.stamen.com/toner/embed#12/40.7298/-73.9849"></iframe>
+  </div>
 
-	<p>Intelligentsia PBR&B migas affogato waistcoat, microdosing celiac meditation echo park locavore literally scenester cliche banh mi. Four loko raw denim fingerstache portland +1, next level poutine lomo mixtape jean shorts schlitz. Austin organic man braid migas put a bird on it four dollar toast. Tote bag four loko authentic gluten-free. Migas microdosing mustache 3 wolf moon, poutine pitchfork yr authentic umami. Lo-fi gluten-free raw denim mlkshk, pug chillwave distillery pickled beard craft beer neutra portland knausgaard sustainable authentic. Mlkshk occupy lumbersexual viral.</p>
 
-	<center><iframe width="400" height="400" src="http://maps.stamen.com/toner/embed#12/40.7298/-73.9849"></iframe></center>
+  <div id="contact_form">
+    <form action="/contact" method="post">
+      <input type="text" placeholder="YOUR NAME">
+      <input type="email" name="email" placeholder="YOUR EMAIL ADDRESS">
+      <input type="text" name="subject" placeholder="SUBJECT">
+      <textarea name="body" placeholder="TALK TO US"></textarea>
 
-</div>
+      <button type="submit" class="btn">SUBMIT</button>
+  </form>
 
-<div id="contact_form">
-	<form action="/contact" method="post">
-        <input type="text" placeholder="YOUR NAME">
-        <input type="email" name="email" placeholder="YOUR EMAIL ADDRESS">
-        <input type="text" name="subject" placeholder="SUBJECT">
-        <textarea name="body" placeholder="TALK TO US"></textarea>
-
-        <button type="submit" class="btn">SUBMIT</button>
-</form>
+  </div>
 
 </div>
