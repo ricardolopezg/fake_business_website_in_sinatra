@@ -1,22 +1,3 @@
-Roles for project 
+##Colaborated with Samps9 and ddesi
 
-
-
-DESI
-header and footer 
-main css
-contact us
-
-
-SAM
-home page
-about page
-
-
-
-RICKY
-services page
-
-
-We all worked on the SendGrid gem
-
+##### Created in Sinatra 
